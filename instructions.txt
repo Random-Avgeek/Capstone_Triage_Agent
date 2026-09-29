@@ -1,0 +1,11 @@
+Assuming Ghidra and PE-Bear are already present in the workspace
+
+-> create a python virtual env using the commands:
+python -m venv venv
+venv\Scripts\Activate
+
+-> Install the prerequisites: pip install pefile lief capstone pandas scikit-learn
+
+-> A folder (if not present, create) data\benign and add around 30-50 executable codes into the data in order to get the correct files
+
+-> run collect_benign.py to get 30 benign files from each folder so as to have the correct files at your service.
